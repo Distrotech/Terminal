@@ -17,7 +17,7 @@ m4_define([terminal_version_major], [0])
 m4_define([terminal_version_minor], [6])
 m4_define([terminal_version_micro], [2])
 m4_define([terminal_version_nano], [])
-m4_define([terminal_version_build], [5f03ef6])
+m4_define([terminal_version_build], [545a2a7])
 m4_define([terminal_version_tag], [])
 m4_define([terminal_version_dbus], [5])
 m4_define([terminal_version], [terminal_version_major().terminal_version_minor().terminal_version_micro()ifelse(terminal_version_nano(), [], [], [.terminal_version_nano()])ifelse(terminal_version_tag(), [git], [terminal_version_tag()-terminal_version_build()], [terminal_version_tag()])])
@@ -35,7 +35,7 @@ AC_COPYRIGHT([Copyright (c) 2003-2011
 
 Written by Benedikt Meurer <benny@xfce.org>.])
 AC_INIT([xfce4-terminal], [terminal_version], [http://bugzilla.xfce.org/])
-AC_REVISION([5f03ef6])
+AC_REVISION([545a2a7])
 AC_PREREQ([2.50])
 AC_ARG_PROGRAM()
 
